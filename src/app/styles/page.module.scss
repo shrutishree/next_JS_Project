@@ -1,0 +1,39 @@
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.25rem 2rem;
+    min-height: 90vh;
+    background-color: mintcream;
+  }
+  
+  .description {
+    margin: auto;
+    font-size: 1.5rem;
+    text-align: center;
+  
+    a {
+      color: darkslateblue;
+    }
+  
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+  
+  .navbar {
+    background-color: rgb(95 158 160);
+    padding: 1rem;
+    min-height: 10vh;
+    position: sticky;
+    top: 0;
+  
+    div{
+      width: 80%;
+      margin: auto;
+      text-align: right;
+      font-size: 1.5em;
+    }
+  }
