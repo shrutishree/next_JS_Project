@@ -1,0 +1,53 @@
+@import "./variables.scss";
+
+.description {
+    font-size: 0.85rem;
+    max-width: var(--max-width);
+    margin: auto;
+    width: 37%;
+  
+    form {
+      display: flex;
+      flex-direction: column;
+      padding: 24px;
+      box-shadow: $box-shadow;
+    }
+
+    h2{
+      text-align: center;
+      margin: 12px 0px;
+    }
+
+    input {
+      display: flex;
+      margin: 12px 0px;
+      padding: 8px 12px;
+      background-color: $primarybgcolor;
+      border: $border;
+      border-radius: $border-radius;
+    }
+
+    div {
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-end;
+      margin: 12px 0px;
+    }
+
+    button {
+      padding: 8px 16px;
+      cursor: pointer;
+      width: 100%;
+      background-color: $secondarycolor;
+      color: $text-color;
+    }
+
+    button:hover {
+      background-color: $hovercolor;
+    }
+
+    p {
+      padding: 12px 0px;
+      text-align: center;
+    }
+  }
