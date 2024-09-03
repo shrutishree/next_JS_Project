@@ -1,0 +1,129 @@
+{
+    "cssQuestions": [
+        {
+            "id": 1,
+            "Que": "What does CSS stand for?",
+            "Ans": "Cascading Style Sheets"
+        },
+        {
+            "id": 2,
+            "Que": "Explain Box Model in CSS?",
+            "Ans": "The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.\nContent- The content of the box, where text and images appears.\npadding-Clears an area around the content. The padding is transparent.\nborder-A border that goes around the padding and content.\nmargin-Clears an area outside the border. The margin is transparent."
+        },
+        {
+            "id": 3,
+            "Que": "Is border or outline is the part of box model?",
+            "Ans": "Border"
+        },
+        {
+            "id": 4,
+            "Que": "Explain different positions in CSS?",
+            "Ans": "Static, Relative, Absolute, Fixed\n1. Static- Default value. An element with position: static; is not positioned in any special way; it is always positioned according to the normal flow of the page.\n2. Relative- An element with position: relative; is positioned relative to its normal position.\n3. Absolute- An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).\n4. Fixed- An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled.\n5. Sticky- An element with position: sticky; is positioned based on the user's scroll position."
+        },
+        {
+            "id": 5,
+            "Que": "Differnece between inline and block level elements?",
+            "Ans": "Inline elements do not start on a new line and only take up as much width as necessary. Block level elements start on a new line and take up the full width available."
+        },
+        {
+            "id": 6,
+            "Que": "Difference between absolute and relative positioning?",
+            "Ans": "Relative positioning moves an element in relation to where it would have been. Absolute positioning moves an element in relation to its parent."
+        },
+        {
+            "id": 7,
+            "Que": "Difference between Fixed and sticky positioning?",
+            "Ans": "Fixed positioning is relative to the viewport. Sticky positioning is relative to the user's scroll position."
+        },
+        {
+            "id": 8,
+            "Que": "How do you hide an element in CSS?",
+            "Ans": "visibility: hidden; and display: none;"
+        },
+        {
+            "id": 9,
+            "Que": "Difference between visibility: hidden; and display: none;?",
+            "Ans": "visibility: hidden; hides the element, but it still takes up space. display: none; hides the element and does not take up any space."
+        },
+        {
+            "id": 10,
+            "Que": "Difference between inline, block and inline-block?",
+            "Ans": "Inline elements do not start on a new line and only take up as much width as necessary. Block level elements start on a new line and take up the full width available. Inline-block elements are similar to inline elements, but they can have a width and height."
+        },
+        {
+            "id": 11,
+            "Que": "What are pseduo classes in CSS and pseudo elements?",
+            "Ans": "Pseudo classes are used to define the special state of an element. Pseudo elements are used to style specified parts of an element.\n Syntax of pseduoclass: selector:pseudo-class {property:value;}\n Syntax of pseudo element: selector::pseudo-element {property:value;}\n Example of pseudo class: a:hover {color: red;}\n Example of pseudo element: p::first-line {color: red;}"
+        },
+        {
+            "id": 12,
+            "Que": "What are the different type of selectors in CSS?",
+            "Ans": "ID Selector, Class Selector, Universal Selector, Grouping Selector"
+        },
+        {
+            "id": 13,
+            "Que": "What is specificity in CSS?",
+            "Ans": "Specificity is the means by which browsers decide which CSS property values are the most relevant to an element and, therefore, will be applied."
+        },
+        {
+            "id": 14,
+            "Que": "How to calculate specificity in CSS?",
+            "Ans": "Inline styles have the highest specificity, followed by IDs, classes, and elements. If two selectors have the same specificity, the last one will take precedence."
+        },
+        {
+            "id": 15,
+            "Que": "What are sprites images? What is the benifit of using it in CSS?",
+            "Ans": "Sprites are a collection of images put into a single image. It reduces the number of server requests and saves bandwidth."
+        },
+        {
+            "id": 16,
+            "Que": "Tell me some property of Grid and Flexbox in CSS?",
+            "Ans": "Grid: grid-template-columns, grid-template-rows, grid-column-gap, grid-row-gap, grid-gap, grid-template-areas, justify-items, align-items, justify-content, align-content, justify-self, align-self. Flexbox: flex-direction, flex-wrap, flex-flow, justify-content, align-items, align-content, order, flex-grow, flex-shrink, flex-basis, flex."
+        },
+        {
+            "id": 17,
+            "Que": "How to do responsive web design with CSS?",
+            "Ans": "Media queries, viewport, fluid grids, flexible images, and media."
+        },
+        {
+            "id": 18,
+            "Que": "What are the different media breakpints for different devices?",
+            "Ans": "320px, 480px, 600px, 768px, 992px, 1200px, 1600px"
+        },
+        {
+            "id": 19,
+            "Que": "What is the difference between CSS and SCSS?",
+            "Ans": "SCSS is a preprocessor that allows for more functionality in CSS like variables, nesting, and mixins."
+        },
+        {
+            "id": 20,
+            "Que": "What is the difference between CSS and SASS?",
+            "Ans": "SASS is a preprocessor that allows for more functionality in CSS like variables, nesting, and mixins."
+        },
+        {
+            "id": 21,
+            "Que": "What are the new features in CSS3?",
+            "Ans": "New selectors, rounded corners, shadows, text effects, animations, transitions, gradients, multiple columns, border images, and more."
+        },
+        {
+            "id": 22,
+            "Que": "What is the difference between CSS and CSS3?",
+            "Ans": "CSS3 is the latest version of CSS."
+        },
+        {
+            "id": 23,
+            "Que": "Difference between ':last-child' and ':last-of-type' in CSS?",
+            "Ans": "last-child selects the last child element of its parent. last-of-type selects the last element of a specific type."
+        },
+        {
+            "id": 24,
+            "Que": "What is BEM methodology in CSS?",
+            "Ans": "Block Element Modifier is a methodology that helps you to create reusable components and code sharing in front-end development."
+        },
+        {
+            "id": 25,
+            "Que": "What is the diffecence between 'px', 'em' and 'rem' in CSS?",
+            "Ans": "px is a fixed unit of measurement. em is a relative unit of measurement. rem is a relative unit of measurement, but it is relative to the root element."
+        }
+        ]
+}
