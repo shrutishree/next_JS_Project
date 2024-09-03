@@ -1,0 +1,74 @@
+@import "./variables.scss";
+
+.dashboard {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.cards {
+  box-shadow: $box-shadow;
+  margin: 12px;
+  padding: 12px;
+  text-wrap: balance;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+
+  img {
+    width: 50%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  p {
+    text-align: center;
+  }
+}
+
+.wrapper {
+  width: 80%;
+}
+
+.header {
+  background-color: black;
+  position: sticky;
+  top: 0;
+  min-height: 10vh;
+}
+
+.questionAnswer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+  margin: 22px 0px;
+
+  ul {
+    margin-left: 22px;
+  }
+
+  p, li {
+    font-size: 20px;
+    margin: 12px 0px;
+    line-height: 27px;
+    white-space:pre-wrap;
+  }
+
+  button {
+    background: none;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+    text-align: left;
+    font-weight: 600;
+
+    &:hover {
+      background-color: #d1e9dd57;;
+    }
+  }
+
+}
