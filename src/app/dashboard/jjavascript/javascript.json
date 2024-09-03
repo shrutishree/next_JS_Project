@@ -1,0 +1,159 @@
+{
+    "javaScriptQuestion": [
+        {
+            "id": 1,
+            "Que": "What is Javascript?",
+            "Ans": "Javascript is the most popular and widely used client-side scripting language. ->Client-side refers to the script which will run within the web browser. ->Since Javascript is a client-side scripting language, we can use this in any of the browsers like: 'Google', 'Opera', 'Firefox'"
+        },
+        {
+            "id": 2,
+            "Que": "What are the different types of Data Types in Javascript?",
+            "Ans": "There are two types of data types in Javascript:-> Primitive Data Types:\n 1. Number\n 2. String\n 3. Boolean\n 4. Null\n 5. Undefined\n 6. Symbol -> Non-Primitive Data Types:\n 1. Object\n 2. Array\n 3. Function\n 4. Date\n 5. RegExp\n 6. Error"
+        },
+        {
+            "id": 3,
+            "Que": "What is the difference between primitive and non-primitive datatype in Javascript?",
+            "Ans": "Primitive Data Types:\n 1. Primitive data types are immutable.\n 2. Primitive data types are passed by value.\n 3. Primitive data types are stored in stack memory.-> Non-Primitive Data Types:\n 1. Non-Primitive data types are mutable.\n 2. Non-Primitive data types are passed by reference.\n 3. Non-Primitive data types are stored in heap memory."
+        },
+        {
+            "id": 4,
+            "Que": "Explain hoisting in Javascript. What is function hoisting and variable hoisting?",
+            "Ans": "It is a phenomenon in JS where we can access any variables and functions before initializing them.-> Function Hoisting: In function hoisting, we can access the function before initializing it.\n Example:\n add()\n function add(){\n var a = 1; var b = 2;\n}-> Variable Hoisting: In variable hoisting, we can access the variable before initializing it.\n Example:\n x = 5;\n var x;-> For var declaration, variables are hoisted very differently from let and const variable declarations.-> With var declaration, variables are attached to the global object. While with let or const declaration, variables hoisting in a separate memory space. We can't access it before we put some value in it.-> If we try to access variables with let or const declared then we will get a reference error.-> Hoisting is a default behavior in Javascript where all the declarations are moved to the top of the current scope."
+        },
+        {
+            "id": 5,
+            "Que": "How does inheritance work in Javascript?",
+            "Ans": "In JavaScript, an object can inherit properties of another object. The object from where the properties are inherited is called the prototype. In short, objects can inherit properties from other objects — the prototypes.-> There are two types of inheritance in Javascript: 1. Prototypal Inheritance 2. Classical Inheritance-> Prototypal Inheritance: In prototypal inheritance, objects inherit from objects.-> Classical Inheritance: In classical inheritance, objects inherit from classes.-> In Javascript, we can create inheritance using the prototype object.-> Inheritance is a mechanism in which a new class is created using existing class properties.-> Whenever we create any Javascript object, the Javascript engine automatically attaches our object with some hidden properties and functions. -> The prototype is a concept in javascript that describes how objects share data or methods from other objects through a chain of inheritance."
+        },
+        {
+            "id": 6,
+            "Que": "Define Map, Filter, Foreach, Reduce in Javascript.",
+            "Ans": "Map:\n 1. It returns an array of pieces of information from the original array. \n 2. Map produces an array with new, different entries based on the element in the original array.\n 3. The map object holds key and value pairs.\n 4. The map object iterates its elements in insertion order.-> Filter: \n 1. It returns an array of elements that pass the condition.\n 2. Filter returns a subset of the original array based on customer criteria.-> Foreach:\n 1. It is used to iterate over the array.->Reduce: \n 1. It is used to reduce the array to a single value.\n 2. It can be used to return almost anything. It is often used to return a single number like: a sum.\n 3. It can also be used to combine the logic of Map and Filter to return an array of values matching certain criteria.->Map, Filter, Foreach, Reduce are all array methods in Javascript."
+        },
+        {
+            "id": 7,
+            "Que": "What is coercion and type of coercion in Javascript?",
+            "Ans": "Implicit Type Conversion is also known (and more commonly referred to) as Coercion while Explicit Type Conversion is also known as Type Casting.-> What is Type Conversion?\n As the name implies, type conversion is the process of converting a value from one type to another. \nType conversion can either be implicit (automatically done during code execution) or explicit (done by us the developer)."
+        },
+        {
+            "id": 8,
+            "Que": "Difference between var, let, and const?",
+            "Ans": "var- The scope of a variable defined with the keyword 'var' is limited to the 'function' within which it is defined. If it is defined outside any function, the scope of the variable is global. var is 'function scoped'.\nvar can be hoisted.\nWe can redeclare a variable declared with var in the same scope or in child-parent scopes. ->let- The scope of the variable defined with the keyword 'let' is limited to the 'block' defined by curly braces, i.e., {}.\n'let' is block scoped.\nlet cannot be hoisted. If we try to hoist a let variable, then we will get a reference error.\nVariables defined with let cannot be redeclared, but we can reassign the variable. ->const- The scope of the variable defined with the keyword 'const' is limited to the block defined by curly braces, i.e., {}.\n'const' is block scoped.\nconst cannot be hoisted. If we try to hoist a const variable, then we will get a reference error.\nconst is used to declare a constant variable. A constant variable cannot be changed after it is declared.\nWe cannot redeclare or reassign the value of a const variable."
+        },
+        {
+            "id": 9,
+            "Que": "How does JavaScript work?",
+            "Ans": "JavaScript is considered a client-side scripting language.-> The JavaScript engine consists of two main components:\n1. Memory Heap - This is where memory allocation happens.\n2. Call Stack - This is where code execution happens.-> The call stack is the LIFO (Last In First Out) stack. It is the place where tasks get added from the Macro task queue and Micro task queue.-> JavaScript picks up the task for execution from the call stack. The event loop continuously checks the call stack for any function that needs to be run.-> setTimeout(), setInterval(), and similar functions are stored in the Macro task queue. Promises are stored in the Micro task queue, also called the Callback Queue, where all the asynchronous code is stored."
+        },
+        {
+            "id": 10,
+            "Que": "What is the difference between == and === in Javascript?",
+            "Ans": "'==' checks only for equality in value.\nExample: '1' == 1 is true. ->'===' checks for equality in value and data type.\nExample: '1' === 1 is false."
+        },
+        {
+            "id": 11,
+            "Que": "What is PROMISE in Javascript ?",
+            "Ans": "In JavaScript, a Promise is an object that will produce a single value some time in the future."
+        },
+        {
+            "id": 12,
+            "Que": "What is the need to use promise in Javascript ?",
+            "Ans": ""
+        },
+        {
+            "id": 13,
+            "Que": "How to run multiple promises in parallel in Javascript ?",
+            "Ans": ""
+        },
+        {
+            "id": 14,
+            "Que": "What is the difference between promise.all and promise",
+            "Ans": ""
+        },
+        {
+            "id": 15,
+            "Que": "How to stop resolving multiple promises if any one of them is fullfilled in Javascript ?",
+            "Ans": ""
+        },
+        {
+            "id": 16,
+            "Que": "What are the advantages and disadvantages of using promise.all in Javascript ?",
+            "Ans": ""
+        },
+        {
+            "id": 17,
+            "Que": "What is the clouser in Javascript ?",
+            "Ans": "Clouser means that an inner function always has access to the vars and parameters of it's outer function, even function has returned. -> A function bind together with the lexical scope. -> Clouser is a function that has access to its own scope, the outer function scope and the global scope.-> Examples: function createTimers() {\nfor (var i = 0; i < 3; i++) {\n setTimeout((function(i) {\n return function() {\n console.log(i);\n };\n})(i), 1000 * i);\n}\n}\n\ncreateTimers();\n Output: Logs 0, 1, 2 at 0, 1, and 2 seconds respectively"
+        },
+        {
+            "id": 18,
+            "Que": "Advantage and Disavantages of closure in Javascript ?",
+            "Ans": ""
+        },
+        {
+            "id": "19",
+            "Que": "What is the difference between onload and onloadstart in Javascript ?",
+            "Ans": ""
+        },
+        {
+            "id": 20,
+            "Que": "What are three ways to reduce page load time in Javascript ?",
+            "Ans": ""
+        },
+        {
+            "id": 21,
+            "Que": "What is prototype object in Javascript ?",
+            "Ans": ""
+        },
+        {
+            "id": 22,
+            "Que": "What is the pure function in Javascript ?",
+            "Ans": ""
+        },
+        {
+            "id": 23,
+            "Que": "What is event bubbling and event  capturing in Javascript ?",
+            "Ans": ""
+        },
+        {
+            "id": 24,
+            "Que": "How to do deep copy of an object in Javascript ?",
+            "Ans": ""
+        },
+        {
+            "id": 25,
+            "Que": "What is the difference between shallow copy and deep copy in Javascript ?",
+            "Ans": ""
+        },
+        {
+            "id": 26,
+            "Que": "Explain call apply and bind in Javascript ?",
+            "Ans": ""
+        },
+        {
+            "id": 27,
+            "Que": "Difference between local storage, session storage and cookies in Javascript ?",
+            "Ans": "All are use to store data.-> Session Storage: When I say data is present in the session storage that means the data will present in that session. When I will close the tab or system data will expire in session storage.\n\nCapacity of session storage is 5MB.\n\nData will be stored in the form of key-value pairs\n\nStorage location is Browser Only.\n\nSyntax: sessionStorage.setItem('name','Lydia');\nsessionStorage.getItem('name');\nsessionStorage.removeItem('name');\nsessionStorage.clear();-> Local Storage: When I say data is present in local storage that means the data will be present in the local storage. Even if I close the tab or system data will not expire in local storage.\n\nIt does not come with expiry.\n\nGetting the data from the local storage is much faster than getting the data from network call.\n\nCapacity of local storage is 10MB.\n\nData will be stored in the form of key-value pairs\n\nStorage location is Browser Only.\n\nSyntax: localStorage.setItem('name','Lydia');\nlocalStorage.getItem('name');\nlocalStorage.removeItem('name');\nlocalStorage.clear();-> Cookies: Cookies are the small test files stored in a computer and it gets created when the user visits the websites to store information that they need.-\n\nCapacity of cookies is 4KB.-\n\nData will be stored in the form of key-value pairs-\n\nStorage location is Browser Only.-\n\nSyntax: document.cookie = 'name=Lydia';\nconsole.log(document.cookie);"
+        },
+        {
+            "id": 28,
+            "Que": "What is scope chain in Javascript ?",
+            "Ans": ""
+        },
+        {
+            "id": 29,
+            "Que": "Difference between NULL and UNDEFINED in Javascript ?",
+            "Ans": " Both represent empty value. -> Undefined: It means a variable has been declared but has not yet been assigned a value. -> Null: It is an assignment value. It can be assigned to a variable as a representation of no value. -> If we define a variable and not assign a value, it will automatically put a place hold which is undefined.\n For null if there is a value of variable and I have cleared it that value will be null. -> If I do typeOf(undefined) result will be undefined\n If I do typeOf(null) result will be object. -> Undefined is a global variable while null is a keyword in Javascript."
+        },
+        {
+            "id": 30,
+            "Que": "What is lexical This (scope) in Javascript ?",
+            "Ans": ""
+        },
+        {
+            "id": 31,
+            "Que": "How does asynchronous event work in Javascript?",
+            "Ans": ""
+        }
+    ]
+}
