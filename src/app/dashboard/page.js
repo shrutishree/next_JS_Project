@@ -8,7 +8,7 @@ const subject = [
     id: 1,
     title: "HTML",
     description: "HTML is the standard markup language for creating Web pages.",
-    image: "/html-logo.svg",
+    image: "/HTML-logo.svg",
   },
   {
     id: 2,
