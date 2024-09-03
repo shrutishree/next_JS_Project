@@ -1,0 +1,149 @@
+{
+    "htmlQuestions": [
+        {
+            "id": 1,
+            "Que": "What is HTML?",
+            "Ans": "HTML stands for Hyper Text Markup Language. It is a language of the World Wide Web. It is a standard text formatting language which is used to create and display pages on the Web. It makes the text more interactive and dynamic. It can turn text into images, tables, links, etc."
+        },
+        {
+            "id": 2,
+            "Que": "What is the use of HTML?",
+            "Ans": "HTML is used to create electronic documents (called pages) that are displayed on the World Wide Web. Each page contains a series of connections to other pages called hyperlinks. Every web page you see on the Internet is written using one version of HTML code or another."
+        },
+        {
+            "id": 3,
+            "Que": "What are the main features of HTML?",
+            "Ans": "The main features of HTML are: It is easy to use, It is platform-independent, It is not case sensitive, It is a markup language, It is a language of the World Wide Web, It defines the structure of a web page, It is used to create electronic documents (called pages) that are displayed on the World Wide Web."
+        },
+        {
+            "id": 4,
+            "Que": "What are the advantages of HTML?",
+            "Ans": "The advantages of HTML are: It is easy to use, It is platform-independent, It is not case sensitive, It is a markup language, It is a language of the World Wide Web, It defines the structure of a web page, It is used to create electronic documents (called pages) that are displayed on the World Wide Web."
+        },
+        {
+            "id": 5,
+            "Que": "Defference between HTML element and tag?",
+            "Ans": "An HTML element is defined by a start tag, some content, and an end tag. An HTML tag is used to define the start of an element. An HTML element is everything from the start tag to the end tag."
+        },
+        {
+            "id": 6,
+            "Que": "Should we have more than one H1 tag on a single web page?",
+            "Ans": "No, we should not have more than one H1 tag on a single web page."
+        },
+        {
+            "id": 7,
+            "Que": "What are the new element in HTML5?",
+            "Ans": "The new elements in HTML5 are: <article>, <aside>, <details>, <figcaption>, <figure>, <footer>, <header>, <main>, <mark>, <nav>, <section>, <summary>, <time>"
+        },
+        {
+            "id": 8,
+            "Que": "What are the new form elements in HTML5?",
+            "Ans": "The new form elements in HTML5 are: <datalist>, <keygen>, <output>"
+        },
+        {
+            "id": 9,
+            "Que": "Difference between Semantic and Syntactic elements?",
+            "Ans": "Semantic elements are elements with a meaning. A semantic element clearly describes its meaning to both the browser and the developer. Examples of non-semantic elements: <div> and <span> - Tells nothing about its content. Syntactic elements are elements with a syntax. A syntactic element is an element with a specific structure. Examples of syntactic elements: <table>, <form>, <article> - Tells how the content is structured."
+        },
+        {
+            "id": 10,
+            "Que": "Difference between Canvas and SVG?",
+            "Ans": "Canvas is a HTML element which is used to draw graphics via scripting (usually JavaScript). SVG is a XML-based language which is used to draw graphics. SVG is used to define graphics for the Web."
+        },
+        {
+            "id": 11,
+            "Que": "Difference between ID and class in HTML?",
+            "Ans": "ID is used to identify a unique element in a document. ID can be used by only one element. ID is used to apply a style to a single element. Class is used to identify more than one element in a document. Class can be used by multiple elements. Class is used to apply a style to more than one element."
+        },
+        {
+            "id": 12,
+            "Que": "How is DOM rendered by browser?",
+            "Ans": "The browser renders the DOM by parsing the HTML markup into a DOM tree, which is a tree of objects that represent the structure of the document. The browser then renders the DOM tree to display the document on the screen."
+        },
+        {
+            "id": 13,
+            "Que": "Difference between ASYNC and DEFER?",
+            "Ans": "Both async and defer allow the HTML parsing process to continue without waiting for the script to be downloaded.\nWith async, the script executes as soon as it's downloaded, potentially before the HTML document is fully parsed. With defer, the script executes only after the HTML document is fully parsed."
+        },
+        {
+            "id": 14,
+            "Que": "Different ways to apply CSS to a Web page?",
+            "Ans": "There are three ways to apply CSS to a Web page: Inline CSS, Internal CSS, External CSS."
+        },
+        {
+            "id": 15,
+            "Que": "What is responsive Web design?",
+            "Ans": "Responsive Web design is the approach that suggests that design and development should respond to the user's behavior and environment based on screen size, platform, and orientation. The practice consists of a mix of flexible grids and layouts, images, and an intelligent use of CSS media queries."
+        },
+        {
+            "id": 16,
+            "Que": "What is <!DOCTYPE>?",
+            "Ans": "The declaration is not an HTML tag. It is an 'information' to the browser about what document type to expect.\nThe <!DOCTYPE> declaration is not an HTML tag. It is an instruction to the web browser about what version of HTML the page is written in. The <!DOCTYPE> declaration must be the very first thing in your HTML document, before the <html> tag."
+        },
+        {
+           "id": 17,
+           "Que": "Can a page have multiple header and footers?",
+           "Ans": "Yes, a page can have multiple header and footers."
+        },
+        {
+            "id": 18,
+            "Que": "What is the difference between <section> and <div>?",
+            "Ans": "div is a generic container element that does not carry any semantic meaning. It is mostly used for grouping related elements together and applying styling to them via CSS.\n section , on the other hand, is a semantic element that represents a specific section of a web page with a distinct topic or purpose."
+        },
+        {
+            "id": 19,
+            "Que": "What is the use of Meta tag in HTML?",
+            "Ans": "The <meta> tag provides metadata about the HTML document.\nMetadata will not be displayed on the page, but will be machine parsable. Meta elements are typically used to specify page description, keywords, author of the document, last modified, and other metadata.\n<meta charset='UTF-8'>\n<meta name='viewport' content='width=device-width, initial-scale=1.0'>"
+        },
+        {
+            "id": 20,
+            "Que": "What are the difference between Attributes and Properties?",
+            "Ans": "Attributes are defined on the HTML markup.\nProperties are defined on the DOM.\nAttributes initialize DOM properties and then they are done. Property values can change; attribute values can't. Property values are always strings (when read from an attribute).\n<img src='./abc.png'/>\nhere src is an attribute and path is a value"
+        },
+        {
+            "id": 21,
+            "Que": "What is the use of iframe in HTML? and how it works?",
+            "Ans": "An <iframe> is used to display a web page within a web page. The <iframe> tag specifies an inline frame. An inline frame is used to embed another document within the current HTML document. The <iframe> element is supported in all major browsers."
+        },
+        {
+            "id": 22,
+            "Que": "What is the use of alt attribute on <img> tag?",
+            "Ans": "The alt attribute provides alternative information for an image if a user for some reason cannot view it (because of slow connection, an error in the src attribute, or if the user uses a screen reader)."
+        },
+        {
+            "id": 23,
+            "Que": "What is the self closing tag?",
+            "Ans": "A self-closing tag is a tag that can stand alone and does not need a closing tag. In HTML, the self-closing tag is used to create an empty element. The self-closing tag is written with a slash at the end of the tag."
+        },
+        {
+            "id": 24,
+            "Que": "What is GoLocation method in HTML?",
+            "Ans": "The GoLocation method is used to load a new document. The GoLocation method is used to load a new document. The GoLocation method is used to load a new document. The GoLocation method is used to load a new document."
+        },
+        {
+            "id": 25,
+            "Que": "What is web workers in HTML?",
+            "Ans": "Web Workers are a simple means for web content to run scripts in background threads. The worker thread can perform tasks without interfering with the user interface. Once created, a worker can send messages to the JavaScript code that created it by posting messages to an event handler specified by that code (and vice versa)."
+        },
+        {
+            "id": 26,
+            "Que": "How to increase performance of static website with HTML?",
+            "Ans": "The performance of a static website can be increased by: Minimizing HTTP Requests, Minifying and Combining Files, Using Asynchronous Loading for CSS and JavaScript Files, Defer JavaScript Loading, Minimize the number of DOM elements, Optimize images, Optimize CSS Delivery."
+        },
+        {
+            "id": 27,
+            "Que": "Difference between <strong> and <b> tag?",
+            "Ans": "<strong> tag is used to highlight the important text. <b> tag is used to make the text bold."
+        },
+        {
+            "id": 28,
+            "Que": "Difference between <div> and <span> tag?",
+            "Ans": "<div> tag is a block-level element that defines a division or a section in an HTML document. <span> tag is an inline element that defines a section in an HTML document."
+        },
+        {
+            "id": 29,
+            "Que": "What is Animation in HTML?",
+            "Ans": "Animation in HTML is the process of making the HTML elements move or change over time. Animation can be implemented using CSS, JavaScript, or HTML."
+        }
+    ]
+}
